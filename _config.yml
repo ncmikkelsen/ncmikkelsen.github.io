@@ -2,11 +2,11 @@ title: "Your Name"
 description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
 about: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
 location: "Aarhus, Denmark"
-email: nikolaj.c.mikkelsen@gmail.com
+email: "nikolaj.c.mikkelsen@gmail.com"
 baseurl: ""
-url: "http://himsel.me" # replace by your site's url
-twitter_username: @ncmikkelsen
-github_username:  ncmikkelsen
+url: "" # replace by your site's url
+twitter_username: "@ncmikkelsen"
+github_username:  "ncmikkelsen"
 
 # google analytics tracking code, please change the value
 g_analytics: ""
