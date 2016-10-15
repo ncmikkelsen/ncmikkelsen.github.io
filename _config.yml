@@ -8,6 +8,14 @@ url: "" # replace by your site's url
 twitter_username: "@ncmikkelsen"
 github_username:  "ncmikkelsen"
 
+# Collections
+collections:
+    - projects:
+        link: ""
+        name: ""
+        description: ""
+
+
 # google analytics tracking code, please change the value
 g_analytics: "UA-85757330-1"
 
