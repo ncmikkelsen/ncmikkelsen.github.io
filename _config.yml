@@ -10,7 +10,7 @@ github_username:  "ncmikkelsen"
 
 # Collections
 collections:
-    - projects:
+    projects:
         link: ""
         name: ""
         description: ""
