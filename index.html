@@ -37,7 +37,7 @@ layout: default
   <ul>
     {% for project in site.projects %}
     <li>
-      <p class="my-item"><a href="{{ project.link }}" class="my-link">{{ project.name }}</a><br>
+      <p class="my-item"><a href="{{ project.url | prepend ncmikkelsen.github.io/projects/}}" class="my-link">{{ project.name }}</a><br>
         <span class="my-item-sub">
         {{ project.description }}
       </span>
