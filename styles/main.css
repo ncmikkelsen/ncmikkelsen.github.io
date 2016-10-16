@@ -163,14 +163,6 @@ a{
     background: white;
     z-index: 2;
 }
-.my-imprint-link{
-    font-size: 8.5px;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-.my-imprint-link:hover{
-    color: #38c1c1;
-}
 .my-text-body{
     font-family: 'Libre Baskerville', serif;
     font-size: 13px;
@@ -229,7 +221,7 @@ a{
     color: #ea8462;
 }
 .my-item{
-     font-family: 'Libre Baskerville', serif;    
+     font-family: 'Libre Baskerville', serif;
     font-size: 18px;
     margin-bottom: 20px;
 }
