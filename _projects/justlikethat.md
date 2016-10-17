@@ -1,5 +1,7 @@
 ---
 layout: project
+name: Just Like That
+description: A pair of vibrating underwear that investigates our relationships with social media
 ---
 # Just Like That
 
