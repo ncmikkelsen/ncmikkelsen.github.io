@@ -2,6 +2,10 @@
 layout: default
 ---
 
-<div class="my-text-body">
-  {{ content }}
-</div>
+<article class="left-align" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <h2 class="center-align" itemprop="name headline">{{ page.name }}</h2>
+  <div class="my-text-body">
+    {{ content }}
+  </div>
+</article>
