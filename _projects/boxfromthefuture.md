@@ -3,7 +3,6 @@ layout: project
 name: The Box from the Future
 description: A design prompt generator for creating speculative design and design fiction
 ---
-# The Box from the Future
 
 The box from the future is a design prompt generator for creating speculative design and design fiction.
 
