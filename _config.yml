@@ -50,12 +50,10 @@ kramdown:
 gems:
   - jekyll-paginate
   - jekyll-gist
-  - jemoji
 
 whitelist:
   - jekyll-paginate
   - jekyll-gist
-  - jemoji
 
 # exclude files
 exclude:
