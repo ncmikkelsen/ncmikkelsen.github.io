@@ -4,7 +4,7 @@ name: Jorn
 description: An interactive processing sketch that allowed you to pull apart and rearrange a painting by Asger Jorn
 ---
 
-Jorn was a project created for The Art Centre Silkeborg Bad. It was part of the Jorn Lab marking the 100th birthday of the late Danish painter Asger Jorn.
+Jorn was created for The Art Centre Silkeborg Bad, as part of the Jorn Lab marking the 100th birthday of the late Danish painter Asger Jorn.
 
 The art centre wanted an interactive piece that allowed their visitors to explore a work of Asger Jorn.
 
