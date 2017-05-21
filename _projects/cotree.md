@@ -6,4 +6,4 @@ description: An interactive installation using smart materials to discuss our CO
 
 COTree is an interactive installation using smart materials to discuss our CO2 emissions
 
-COTree was built with Arduino.
+COTree was built with Arduino and smart materials such as muscle-wire and thermochromic ink. 
