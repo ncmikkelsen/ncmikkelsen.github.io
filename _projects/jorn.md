@@ -1,7 +1,7 @@
 ---
 layout: project
 name: Jorn
-description: An interactive processing sketch that allows you to pull apart and rearrange a painting by Asger Jorn
+description: An interactive processing sketch that allows you to pull apart and rearrange a painting
 ---
 
 Jorn was created for The Art Centre Silkeborg Bad, as part of the Jorn Lab marking the 100th birthday of the late Danish painter Asger Jorn.
