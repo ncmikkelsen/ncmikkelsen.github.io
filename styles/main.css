@@ -144,7 +144,7 @@ a{
 .my-project-heading{
   font-family: 'Rubik One', sans-serif;
   font-size: 23.5px;
-  text-align: center;  
+  text-align: center;
 }
 .my-mini-heading-sub{
     font-family: 'Libre Baskerville', serif;
@@ -227,13 +227,15 @@ a{
     color: #ea8462;
 }
 .my-item{
-     font-family: 'Libre Baskerville', serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 18px;
     margin-bottom: 20px;
+    text-align: left;
+
 }
 .my-item-sub{
-     font-family: 'Share Tech Mono', monospace;
-     font-size: 12px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
 }
 .my-tag{
     font-family: 'Share Tech Mono', monospace;
