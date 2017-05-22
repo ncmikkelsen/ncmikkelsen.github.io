@@ -2,6 +2,7 @@
 layout: project
 name: Open Pollution
 description: A real-time visualization of pollution using open data
+date: 2013_10_01
 ---
 Open Pollution is a data-visualization project utilizing open data from the Open Data Copenhagen platform (http://data.kk.dk/).
 

@@ -2,6 +2,7 @@
 layout: project
 name: The Box from the Future
 description: A design prompt generator for creating speculative design and design fiction
+date: 2016_04_01
 ---
 
 The Box from the Future is a design prompt generator for creating speculative design and design fiction. It was built to help facilitate workshops which use design fiction at the digital design education at Aarhus University and has already been part of several workshops. The Box is inspired by [The Thing From The Future card game](http://situationlab.org/projects/the-thing-from-the-future/) and uses the same sets of categories and words.

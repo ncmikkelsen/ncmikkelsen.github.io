@@ -2,6 +2,7 @@
 layout: project
 name: Kompost
 description: An interactive projection-mapping and computer vision installation for Aarhus Psych Fest 2015
+date: 2015_08_01
 ---
 
 Kompost is an interactive digital installation created in collaboration with Hannibal Glaser and Arne Knutinge Kaas for Aarhus Psych Fest, an annual psychedelic and alternative music festival.
