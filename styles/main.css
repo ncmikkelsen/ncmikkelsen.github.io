@@ -140,6 +140,12 @@ a{
     font-family: 'Rubik One', sans-serif;
     font-size: 23.5px;
 }
+
+.my-project-heading{
+  font-family: 'Rubik One', sans-serif;
+  font-size: 23.5px;
+  text-align: center;  
+}
 .my-mini-heading-sub{
     font-family: 'Libre Baskerville', serif;
     font-size: 15px;
