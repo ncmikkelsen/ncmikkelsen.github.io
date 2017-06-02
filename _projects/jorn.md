@@ -4,6 +4,7 @@ name: Jorn
 description: An interactive processing sketch that allows you to pull apart and rearrange a painting
 date: 2014_04_01
 ---
+![The sketch in use]({{ site.url }}/assets/Jornapp.jpg)
 
 Jorn was created for The Art Centre Silkeborg Bad, as part of the Jorn Lab marking the 100th birthday of the late Danish painter Asger Jorn.
 
