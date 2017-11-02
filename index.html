@@ -8,23 +8,21 @@ layout: default
   <a id="projects-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_projects();">{{ site.projects_btn }}</a>
 </div>
 
-<div id="aboutme">
-  <h2 class="my-mini-heading">About</h2>
-  <div id="aboutmetext" align="left">
-    <p>
-      Hi!
-    </p>
-    <p>
-      I'm an interaction designer currently doing my master's degree in Digital Design at Aarhus University.
-      I create interactive installations and experiments with processing and arduino. I also dabble in javascript and python.
-    </p>
-    <p>
-      My work has been exhibited at Silkeborg Bad Kunstmuseum, Media Architecture Biennale 2014, Aarhus Psych Fest 2015, ACM: Creativity and Cognition 2015 and Aarhus Festuge 2016.
-    </p>
-    <p>
-      I also teach and help students create technical prototypes at the Digital Design Lab at Aarhus University.
-    </p>
-  </div>
+<div id="projects">
+  <h2 class="my-mini-heading">{{ site.projects_btn }}</h2>
+  <ul>
+    {% assign sortedProjects = (site.projects | sort: 'date') | reverse %}
+    {% for project in sortedProjects %}
+    <li>
+      <p class="my-item"><a href="{{ project.url | prepend: projects |prepend: site.baseurl}}" class="my-link">{{ project.name }}</a><br>
+        <span class="my-item-sub">
+        {{ project.description }}
+      </span>
+    {% endfor %}
+  </ul>
+  <!-- <div>
+    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
+  </div> -->
 </div>
 
 <div id="posts">
@@ -47,22 +45,23 @@ layout: default
   </div> -->
 </div>
 
-
-<div id="projects">
-  <h2 class="my-mini-heading">{{ site.projects_btn }}</h2>
-  <ul>
-    {% assign sortedProjects = (site.projects | sort: 'date') | reverse %}
-    {% for project in sortedProjects %}
-    <li>
-      <p class="my-item"><a href="{{ project.url | prepend: projects |prepend: site.baseurl}}" class="my-link">{{ project.name }}</a><br>
-        <span class="my-item-sub">
-        {{ project.description }}
-      </span>
-    {% endfor %}
-  </ul>
-  <!-- <div>
-    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
-  </div> -->
+<div id="aboutme">
+  <h2 class="my-mini-heading">About</h2>
+  <div id="aboutmetext" align="left">
+    <p>
+      Hi!
+    </p>
+    <p>
+      I'm an interaction designer currently doing my master's degree in Digital Design at Aarhus University.
+      I create interactive installations and experiments with processing and arduino. I also dabble in javascript and python.
+    </p>
+    <p>
+      My work has been exhibited at Silkeborg Bad Kunstmuseum, Media Architecture Biennale 2014, Aarhus Psych Fest 2015, ACM: Creativity and Cognition 2015 and Aarhus Festuge 2016.
+    </p>
+    <p>
+      I also teach and help students create technical prototypes at the Digital Design Lab at Aarhus University.
+    </p>
+  </div>
 </div>
 
 <noscript>
