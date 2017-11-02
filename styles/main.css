@@ -242,9 +242,7 @@ a{
     font-size: 13px;
     color: #4db6ac;
 }
-#projects, #posts{
-    display: none;
-}
+
 img{
     max-width: 100%;
 }
