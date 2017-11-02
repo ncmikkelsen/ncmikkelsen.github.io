@@ -18,20 +18,6 @@ layout: default
     </ul>
   </div>
 
-  <div id="posts">
-    <h2 class="my-mini-heading">{{ site.posts_btn }}</h2>
-    <ul>
-      {% for post in site.posts %}
-      <li>
-        <p class="my-item">
-          <a href="{{ post.url | prepend: site.baseurl }}" class="my-link">{{ post.title }}</a><br>
-          <span class="my-item-sub">{{ post.date | date: "%b %-d, %Y" }}</span>
-        </p>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-
   <div id="aboutme">
     <h2 class="my-mini-heading">About</h2>
     <div id="aboutmetext" align="left">
