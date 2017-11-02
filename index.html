@@ -3,6 +3,7 @@ layout: default
 ---
 <script src="{{ "/styles/index.js" | prepend: site.baseurl }}"></script>
 <div id="onepage">
+
   <div id="projects">
     <h2 class="my-mini-heading">{{ site.projects_btn }}</h2>
     <ul>
@@ -15,15 +16,10 @@ layout: default
         </span>
       {% endfor %}
     </ul>
-    <!-- <div>
-      <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
-    </div> -->
   </div>
 
   <div id="posts">
-
     <h2 class="my-mini-heading">{{ site.posts_btn }}</h2>
-
     <ul>
       {% for post in site.posts %}
       <li>
@@ -34,10 +30,6 @@ layout: default
       </li>
       {% endfor %}
     </ul>
-
-    <!-- <div>
-      <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
-    </div> -->
   </div>
 
   <div id="aboutme">
